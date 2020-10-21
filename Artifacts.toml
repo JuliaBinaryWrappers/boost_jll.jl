@@ -1,252 +1,236 @@
 [[boost]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6f193f567fcf07fe3b639e6a81ce74777e4bf3bd"
-libc = "musl"
+git-tree-sha1 = "4036c3643951aeeaa3614241380ea39b04f71d72"
+libc = "glibc"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "06e8e5caf3405500379adb47ac5fa8516ab42c63f0766c15426a4b78aaf4aed6"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "0b215fb8f83f3ef91db05f0ad5f6b43ded6d2026ce46ad893e3b9622d9542b64"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[boost]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "302eac7968f42efdee8742662363cc3f00c8b356"
+git-tree-sha1 = "2b8758bf3ae8127b6cfee50b19a9a055c343f6a1"
+libc = "glibc"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "77c6d295a03c9ba8f85beaec5d1ffd51f856440729f39275738a811a0e99f4be"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[boost]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "68713a066dfa14940dac37e702db3fe9587ef8c3"
 libc = "musl"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "a40116695bde7d217c6685200cdb177d72fab40a2f54c3b59fd11506935b64ec"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "99444a00b6e2efe0c7cf1a07f03cf71f8e52250aa6ee54960c619923efc60581"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.aarch64-linux-musl-cxx03.tar.gz"
+[[boost]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3ad997bdba703654ef419e4358b440bdf2116a0a"
+libc = "musl"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "7450ec8e09a095f3006a143731835328975d3a12800a35a70c9aa9584ab495b6"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.aarch64-linux-musl-cxx11.tar.gz"
 [[boost]]
 arch = "armv7l"
+call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8a6dedb1befa5e6c529cf210b306ec1d61857659"
+git-tree-sha1 = "6be26f4630cec9aa35829cc0185dad1f6df16374"
+libc = "glibc"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "662e270728e4814390fc9019092a4d1f1eda5a5f6ef7c7e380ef2150b3697d66"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[boost]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7f1847f9ca2b4b300f9f781867b18ee4164c668f"
+libc = "glibc"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "d1682ea18a244e4acd31695bd0c14aa43a3e0a4d6686278276a9970c18f44799"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[boost]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f59e831bd5fb61c9f40afaa57b64993ba80ca0e1"
 libc = "musl"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "d73326edb2e834be356d0f47996b0202a7965b92d1d5f406010f9d10d7e7e969"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "c89bf2a84c656ba1b16e2eddebe3fa6991ea2752333d9f84c4f36029f737fca1"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[boost]]
-arch = "x86_64"
+arch = "armv7l"
+call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "34f4bdfba2cff89fd64b9362bac3a38c099d82a2"
+git-tree-sha1 = "3c8033e36915b2106ce46d2205dcb5287e9f668f"
+libc = "musl"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "1c5091e3e44a1e03a3cce5edf7372dc1c71c2e06b370310f0ec9b77bcb53b021"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[boost]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "17987869def21754a6f8a0f793130d51d75f5c54"
+libc = "glibc"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "f5111f7903a229baaa53b3303d0a6467f82fde978721b857034f0314eef02ae7"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-linux-gnu-cxx03.tar.gz"
+[[boost]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b7abc5143d67bea3dd417272109b64dc1c27f767"
+libc = "glibc"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "d0813449d4f4ef47d4d270cfc3671112fe85b40092a73ddfa2d681dfd09b6da8"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-linux-gnu-cxx11.tar.gz"
+[[boost]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4a492dae7ccb0e4854ed8bb81b692afa8e096b56"
+libc = "musl"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "df82d691508f5322e06f838a9aa68059dd4057ba7474efe4ad9efcb07ec5d7d0"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-linux-musl-cxx03.tar.gz"
+[[boost]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ab05636286b81fd27b135cb790c75cebd2f8c505"
+libc = "musl"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "b726173dabfaeb6281b734eab48eaccb2fa937702fbbbcf6393b18f5a12a497e"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-linux-musl-cxx11.tar.gz"
+[[boost]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "08ccb73f7f781a241fcf989c1ab7e3c511b93f17"
 os = "windows"
 
     [[boost.download]]
-    sha256 = "f803ce0089abad114b5bb4b9ca6622c24566c63a3b1ecb1ce969fd50a2964580"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "a2a94b2a0d49aed86fdc54a8205e1ea8d4d81254b3249fc9db46dba6736b34c6"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-w64-mingw32-cxx03.tar.gz"
 [[boost]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2a9e26da8678a922421f251b1946df804054c8d0"
-libc = "musl"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "036f885136c827d5776f47cdefef0c709bdefbf50a2381f25fdbcaae8cf2d4cc"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-linux-musl-cxx11.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bc2603caa441d5983aa1a248e26297d3230f98f3"
-libc = "musl"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "c83e071f3f01a409b101a280849aebfc9848763423889862aeb1bc1e23af7dc8"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-linux-musl-cxx11.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5bb2a5dff38e262b95f442c1d66657d0404cba3b"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "271d46927814561c7bde4157cde72f64a3e17f5f8b44b43ff8ce5770adf28935"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[boost]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6ea644341f3bea9d6ec9df98104765eba4e53fdf"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "83b4512da350cd76132ad17d302990578d80748bd9038eb67fd8b8e949c27cb4"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-linux-gnu-cxx03.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "5e8d49cefc93819bf4320875a01b2957789f89d9"
-os = "macos"
-
-    [[boost.download]]
-    sha256 = "ec8f1f817bd7d135aaa446d1354c43ae01f45529ea0a3ce6337699e864104928"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[boost]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "77ae7d62055767fcd7a0fd8e714acbc4d58df80d"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "39577429a352a6312464f2d64130edcc82fda97eba2b1d2b1c648c45daa76966"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-linux-gnu-cxx11.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a2a93e0d939f6c9f4f71dc0c83e24cbaf0ca7c1a"
+git-tree-sha1 = "841e6f2ee9ea6babc97cc61624a1c7c222095243"
 os = "windows"
 
     [[boost.download]]
-    sha256 = "09426212387d4e923f3e6b2ada75ae10af45c1de0a6d8d3d21fb5da77188a856"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-w64-mingw32-cxx03.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4b2bbd47bef5cb3482165d39ac9d89fb058da2cd"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "247a904197ff491d2682ff300271f06add212dfff6d80a0329dd6c629ee23f36"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[boost]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d897c226782fc58c287cdebc68a544ca2bc2eeb8"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "8e677974fc19d76bba3e83f41c0359f006ce906f3d32110a0106236538fc0595"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[boost]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ccafa97c7e9338cfb9c9da30be2ce99530a31cc1"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "cbaf12f81c76630dd8965a8fd9a1979d0b12dba8c5af859c12b7f645eaeab049"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.aarch64-linux-gnu-cxx11.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "afc6d0b7f39c944779127545b7967f828d6fcd3d"
-libc = "musl"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "ba09818867b4a9827efb0d8863a0b47c6c1e8d36f99482d3a551bdaff7a77df8"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-linux-musl-cxx03.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "43ab79c18290590db66de19beafe802497717a58"
-os = "macos"
-
-    [[boost.download]]
-    sha256 = "50dd012bb342908eae6a08f94473baf87ca488d5c2dfbec2ef8d7fbecbaa77c8"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-apple-darwin14-cxx03.tar.gz"
-[[boost]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "438f6acb0123a3925a3331c58b260d506713cc93"
-os = "freebsd"
-
-    [[boost.download]]
-    sha256 = "677f11221b0d7f22f47fbf67009f073f45ed0d4c3f3a5b89857b6e6b1e9d1ce2"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
+    sha256 = "5d4cfe0ffc5334d19a841bc5318f35d12fce1202755cd99bbfd8feecebbeffd0"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.i686-w64-mingw32-cxx11.tar.gz"
 [[boost]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4f65ff7125a46216cc9964bd387dabe91add9e46"
+git-tree-sha1 = "1570646593365b8ade1b29e8a8f7db2979f755a9"
 libc = "glibc"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "f9c8063620d550b295509327ba9496489083766b312425d497595bb95cd2e67a"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "17621c272d37ea53d103be817fdd1cc82f2d8f6d752d3dea6fa0e7c5d0e2efb9"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[boost]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4a9e69d8ee94f132e1e75085d4893323852e87a0"
-os = "windows"
-
-    [[boost.download]]
-    sha256 = "a70662cb3a914f07af7e6cea84d74820d724dec7fc44044e527f860f6aa3e9c1"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-w64-mingw32-cxx03.tar.gz"
-[[boost]]
-arch = "i686"
+arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5e2a7fd98999f0977a4320ae0be8e57d291072b6"
-os = "windows"
-
-    [[boost.download]]
-    sha256 = "6a7607d203e167638def9c405e5a4a0da2601e4ea59d3f7ca44020baa901ca92"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-w64-mingw32-cxx11.tar.gz"
-[[boost]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "dcef1b3f2f3841483df187981fa82664e8843020"
-libc = "musl"
+git-tree-sha1 = "67c6dea87a26e2b7dc076dda4988d34ef954205b"
+libc = "glibc"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "23ae321e900b8c239bd339ee077740bb37b7debfbbd62896876c8bfb40933157"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "acf198b876d0f9bfff8ca389e1a01b162135dbb6ff485e857df0d8fe71e9f994"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[boost]]
-arch = "armv7l"
+arch = "x86_64"
+git-tree-sha1 = "cb6483a6eae3173e005725c6c064755c72a8b2cb"
+os = "macos"
+
+    [[boost.download]]
+    sha256 = "d384717df4a3d9877018cf5ec1f27fa6c4a0c0da4c652e8a88627379cd4c736a"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-apple-darwin.tar.gz"
+[[boost]]
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c32d7a9cc044a1ca7eb9c695a467ea2008910c7e"
+git-tree-sha1 = "39279c46dab8b5eb6eff5cedaf6cb6b463a9fc01"
 libc = "glibc"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "2bcbfe11a2ce2e4873cf055e4a87b9f4c4d7444ec8a8665944b8a2ecd6a8e574"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[boost]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "eccc583fd1a4da158cae72cfc26a49b8945dc435"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "577cf03a8cb7508de59651084bb186f8f8fd658ede8c9a0b5831443f758289af"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[boost]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b0897adbb2d0f347f02f78dc917d8868de9675bc"
-libc = "glibc"
-os = "linux"
-
-    [[boost.download]]
-    sha256 = "8d9a31a57d4d7e7eddfdb525f7ddc6ee9bca5c5c2ccfc4c535a3c606fc13a3c8"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "136485f46ea055735608973d925a1e7fa1656492082f6e53306ead98142f5c60"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[boost]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "436a257d856702072bee3f4e7b885d8dfee26343"
-os = "freebsd"
+git-tree-sha1 = "9960e060b732618174ffd95804d6635833f99513"
+libc = "glibc"
+os = "linux"
 
     [[boost.download]]
-    sha256 = "bc676ec0a97efc0d1f424c074765c1b7b1476fb7cdd8d54176d829bd633fcdb2"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "eb2ebd6e03bc027b42d7b675a55e76aa60f818ae4344bfc82bd751e287c2026a"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[boost]]
-arch = "i686"
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "50161cde6ece4dc21497f3c9a2f549b31ee81044"
+git-tree-sha1 = "ec7d633af1194ce6b4a5295a113543a35ddd88b9"
 libc = "musl"
 os = "linux"
 
     [[boost.download]]
-    sha256 = "c805c4bde378e5f21f05fce2adbea9cbb1e14431239fb3cd1c3cc2af7332f9fd"
-    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+2/boost.v1.71.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "b337ed93861375c10978fccfb3c2b975c937609d29ec7c134081b664c8754b20"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-linux-musl-cxx03.tar.gz"
+[[boost]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "16dc7a70ae58fac4dae525f34220fb2269a121a2"
+libc = "musl"
+os = "linux"
+
+    [[boost.download]]
+    sha256 = "070fd43b6250df93d54df232a3a3ceff7b3566bcc1d0ee9285f7a7580882a943"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-linux-musl-cxx11.tar.gz"
+[[boost]]
+arch = "x86_64"
+git-tree-sha1 = "6e3ba066e0ab0501b2dbb00ebc20ba75ba50f0bb"
+os = "freebsd"
+
+    [[boost.download]]
+    sha256 = "7fb6d72b5ad95a2b0baf3b224f9f21fe6913e056f14737a2748497f4726a7eff"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-unknown-freebsd.tar.gz"
+[[boost]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "799c0b973b2174b45952de5f84713f67f47ad91f"
+os = "windows"
+
+    [[boost.download]]
+    sha256 = "51b6750393fdb013515843457e1483a264f3f42e2238a12f8c3469fb032cd3b6"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[boost]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1fc6b9a36a02b8b6433d12d930a2eb91b1dc1303"
+os = "windows"
+
+    [[boost.download]]
+    sha256 = "8f4636833ab0d4e9b2128634412560ffc9d9a67db3b3c1c2b8a79f7db036ccd4"
+    url = "https://github.com/JuliaBinaryWrappers/boost_jll.jl/releases/download/boost-v1.71.0+3/boost.v1.71.0.x86_64-w64-mingw32-cxx11.tar.gz"

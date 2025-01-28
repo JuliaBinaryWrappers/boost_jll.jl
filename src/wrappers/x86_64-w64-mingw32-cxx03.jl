@@ -2,6 +2,7 @@
 export libboost_atomic, libboost_chrono, libboost_container, libboost_context, libboost_contract, libboost_coroutine, libboost_date_time, libboost_filesystem, libboost_graph, libboost_iostreams, libboost_log, libboost_log_setup, libboost_prg_exec_monitor, libboost_program_options, libboost_random, libboost_regex, libboost_serialization, libboost_stacktrace_basic, libboost_stacktrace_noop, libboost_system, libboost_thread, libboost_timer, libboost_type_erasure, libboost_unit_test_framework, libboost_wave, libboost_wserialization
 
 using Zlib_jll
+using Bzip2_jll
 JLLWrappers.@generate_wrapper_header("boost")
 JLLWrappers.@declare_library_product(libboost_atomic, "libboost_atomic.dll")
 JLLWrappers.@declare_library_product(libboost_chrono, "libboost_chrono.dll")
@@ -30,7 +31,7 @@ JLLWrappers.@declare_library_product(libboost_unit_test_framework, "libboost_uni
 JLLWrappers.@declare_library_product(libboost_wave, "libboost_wave.dll")
 JLLWrappers.@declare_library_product(libboost_wserialization, "libboost_wserialization.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(Zlib_jll)
+    JLLWrappers.@generate_init_header(Zlib_jll, Bzip2_jll)
     JLLWrappers.@init_library_product(
         libboost_atomic,
         "bin\\libboost_atomic.dll",
